@@ -1,0 +1,73 @@
+.editor {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+label {
+    width: 10px; 
+    margin-right: 20px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%; 
+    border: 0.5px solid #000; 
+    margin: 0;
+}
+
+input[type="checkbox"]:checked:before {
+    background-color: #000; 
+    opacity: 0.5;
+    border-radius: 50%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    display: block;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+input[type="checkbox"]:after {
+    content: '';
+    display: block;
+    width: 15px; 
+    height: 15px;
+    border: 0.5px solid #000;
+    border-radius: 50%; 
+    position: absolute;
+    top: -1px; 
+    left: -1px; 
+}
+
+input[data-state="unchecked"]::after {
+    background-color: "";
+}
+
+input[data-state="checkedOnce"]:after {
+    background-color: #000;
+}
+
+input[data-state="checkedTwice"]:after {
+    background-color: rgb(71, 10, 128);
+}
