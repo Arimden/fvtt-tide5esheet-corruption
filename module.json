@@ -22,11 +22,14 @@
         "styles/corruption-block.css"
   ],
   "scripts": ["main.js"],
-  "dependencies": [
-    {
-      "name": "tidy5e-sheet",
-      "manifest": "path/to/tidy5e-sheet/module.json",
-      "type": "module"
-    }
-  ]
+  "relationships" : {
+    "requires": [
+      {
+        "id": "tidy5e-sheet",
+        "name": "tidy5e-sheet",
+        "type": "module",
+        "manifest": "https://github.com/sdenec/tidy5e-sheet/releases/latest/download/module.json"
+      }
+    ]
+  }
 }
