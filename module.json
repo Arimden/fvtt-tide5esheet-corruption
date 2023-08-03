@@ -14,7 +14,7 @@
     }
   ],
   "url": "https://github.com/Arimden/fvtt-tide5esheet-corruption",
-  "manifest": "https://github.com/Arimden/fvtt-tide5esheet-corruption/blob/main/module.json",
+  "manifest": "https://github.com/Arimden/fvtt-tide5esheet-corruption/releases/download/0.1.0/module.json",
   "styles": [
         "styles/corruption-block.css"
   ],
