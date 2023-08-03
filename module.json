@@ -9,8 +9,7 @@
   "description": "A module that overrides Tidy5eSheet and adds a corruption block on the Biography tab.",
   "authors": [
     {
-      "name": "Hidden",
-      "discord": "hidden2222"
+        "name": "hidden2222"
     }
   ],
   "url": "https://github.com/Arimden/fvtt-tide5esheet-corruption",
@@ -22,14 +21,11 @@
         "styles/corruption-block.css"
   ],
   "scripts": ["main.js"],
-  "relationships" : {
-    "requires": [
-      {
-        "id": "tidy5e-sheet",
-        "name": "tidy5e-sheet",
-        "type": "module",
-        "manifest": "https://github.com/sdenec/tidy5e-sheet/releases/latest/download/module.json"
-      }
-    ]
-  }
+  "dependencies": [
+    {
+      "name": "tidy5e-sheet",
+      "manifest": "path/to/tidy5e-sheet/module.json",
+      "type": "module"
+    }
+  ]
 }
