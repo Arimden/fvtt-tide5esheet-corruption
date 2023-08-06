@@ -13,7 +13,7 @@
     }
   ],
   "url": "https://github.com/Arimden/fvtt-tide5esheet-corruption",
-  "manifest": "https://github.com/Arimden/fvtt-tide5esheet-corruption/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/Arimden/fvtt-tide5esheet-corruption/main/module.json",
   "download": "https://github.com/Arimden/fvtt-tide5esheet-corruption/archive/refs/heads/main.zip",
   "readme": "https://github.com/Arimden/fvtt-tide5esheet-corruption/blob/main/README.md",
   "styles": [
