@@ -57,15 +57,12 @@ $(document).ready(function() {
       $(this).attr('data-state', 'checkedOnce');
       $(this).prop('indeterminate', true);
       $(this).prop('checked', true);
-      //$(this).css('background-color', 'black'); /* Set fill color to purple */
     } else if (state === 'checkedOnce') {
       $(this).attr('data-state', 'checkedTwice');
-      //$(this).css('background-color', 'purple'); /* Set fill color to black */
     } else if (state === 'checkedTwice') {
       $(this).attr('data-state', 'unchecked');
       $(this).prop('indeterminate', false);
       $(this).prop('checked', false);
-     // $(this).css('background-color', ''); /* Set fill color to gray */
     }
   });
 });
