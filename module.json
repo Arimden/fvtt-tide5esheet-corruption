@@ -22,8 +22,7 @@
   "scripts": ["main.js"],
   "dependencies": [
     {
-      "name": "tidy5e-sheet",
-      "manifest": "path/to/tidy5e-sheet/module.json",
+      "id": "tidy5e-sheet",
       "type": "module"
     }
   ]
