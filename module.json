@@ -1,7 +1,7 @@
 {
   "id": "tidy5esheet-corruption",
   "title": "Tidy5eSheet-Corruption",
-  "version": "0.1.211",
+  "version": "0.1.212",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -17,7 +17,7 @@
   "download": "https://github.com/Arimden/fvtt-tide5esheet-corruption/archive/refs/heads/main.zip",
   "readme": "https://github.com/Arimden/fvtt-tide5esheet-corruption/blob/main/README.md",
   "styles": [
-    "styles/corruption-block.css"
+    "./styles/corruption-block.css"
   ],
   "scripts": ["main.js"],
   "relationships": {
