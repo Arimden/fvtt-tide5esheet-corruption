@@ -39,18 +39,8 @@ setDataStateForCheckboxes = data => {
   }
 }
 
-Hooks.once('setup', function () {
-  game.settings.register('tidy5esheet-corruption', 'corruptionData', {
-    scope: 'world',
-    config: false,
-    type: CorruptionData,
-    default: {},
-  });
-});
-
 Hooks.once('init', () => {
     
-  
   // CONFIG.debug.hooks = true;
   
   if (!game.modules.get('tidy5e-sheet')) {
