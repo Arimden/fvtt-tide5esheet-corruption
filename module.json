@@ -1,7 +1,7 @@
 {
   "id": "tidy5esheet-corruption",
   "title": "Tidy5eSheet-Corruption",
-  "version": "0.1.12",
+  "version": "0.1.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -9,25 +9,22 @@
   "description": "A module that overrides Tidy5eSheet and adds a corruption block on the Biography tab.",
   "authors": [
     {
-      "name": "Hidden"
+        "name": "hidden2222"
     }
   ],
   "url": "https://github.com/Arimden/fvtt-tide5esheet-corruption",
-  "manifest": "https://github.com/Arimden/fvtt-tide5esheet-corruption/releases/latest/download/module.json",
-  "download": "https://github.com/Arimden/fvtt-tide5esheet-corruption/archive/refs/tags/0.1.0.zip",
+  "manifest": "https://github.com/Arimden/fvtt-tide5esheet-corruption/blob/main/module.json",
+  "download": "https://github.com/Arimden/fvtt-tide5esheet-corruption/archive/refs/heads/main.zip",
   "readme": "https://github.com/Arimden/fvtt-tide5esheet-corruption/blob/main/README.md",
-  "changelog": "https://github.com/Arimden/fvtt-tide5esheet-corruption/blob/main/README.md",
   "styles": [
         "styles/corruption-block.css"
   ],
   "scripts": ["main.js"],
-  "relationships" : {
-    "requires": [{
-      "id": "tidy5e-sheet",
-      "type": "module",
-      "manifest": "https://github.com/sdenec/tidy5e-sheet/releases/latest/download/module.json"
+  "dependencies": [
+    {
+      "name": "tidy5e-sheet",
+      "manifest": "path/to/tidy5e-sheet/module.json",
+      "type": "module"
     }
-      
-    ]
-  }
+  ]
 }
